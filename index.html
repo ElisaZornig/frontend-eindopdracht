@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indie games Elisa Zornig</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#recs">Recomendations</a>
+        <a href="#form">Contact</a>
+        <a href="https://www.bol.com/nl/nl/s/?searchtext=ooblets+nintendo+switch">Koop</a>
+        <a href="https://nl.webuy.com/">Verkoop</a>
+    </nav>
+    <header id="home">
+        <h1>Indie switch games</h1>
+        <p>Nieuwsgierig naar de betoverende wereld van indie games? Welkom bij onze showcase van enkele van de meest
+            meeslepende en
+            creatieve indie games die je ooit zult tegenkomen. Deze onafhankelijke meesterwerken hebben ons hart
+            gestolen en we zijn
+            verheugd om ze met je te delen. Dompel jezelf onder in de wonderlijke wereld van deze onafhankelijke
+            kunstvormen, en laat je betoveren door de passie en
+            toewijding die de makers in elk detail hebben gestopt. We nodigen je uit om mee te gaan op deze buitengewone
+            reis en te
+            ontdekken waarom deze games ons zo diep raken.</p>
+        <div class="headerlinks">
+            <a
+                href="https://www.nintendo.nl/Games/Nintendo-Switch-download-software/Spiritfarer-Farewell-Edition-1822685.html">Koop</a>
+            <a href="https://www.youtube.com/watch?v=SbEnPscIcEg">Video</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="recs">
+            <h2>Recommendations</h2>
+            <div class="games-container">
+
+                <article>
+                    <div class="games-content">
+                        <img src="images/moomin.jpg" alt="Snufkin">
+                        <h3>Snufkin</h3>
+                        <p class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</p>
+
+                        <p>"Snufkin: Melody of Moominvalley betovert met zijn charmante muzikale avonturen en brengt de
+                            magie van Moominvalley tot
+                            leven."</p>
+                    </div>
+                    <a href="https://www.snufkin.game/">Koop</a>
+                </article>
+
+                <article>
+                    <div class="games-content">
+                        <img src="images/ooblets.jpg" alt="ooblets">
+                        <h3>Ooblets</h3>
+                        <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+
+                        <p>"Ooblets combineert schattige wezentjes, boerderijmanagement en dansgevechten op een unieke
+                            en
+                            verslavende manier,
+                            waardoor het een must-play voor liefhebbers van indie games is."</p>
+                    </div>
+                    <a
+                        href="https://www.nintendo.nl/Games/Nintendo-Switch-download-software/Ooblets-2209603.html">Koop</a>
+                </article>
+
+                <article>
+                    <div class="games-content">
+                        <img src="images/melatonin.png" alt="melatonin">
+                        <h3>Melatonin</h3>
+                        <p class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</p>
+
+                        <p>"Melatonin biedt een adembenemende reis door dromen en realiteit, met een diepgaand verhaal
+                            en
+                            prachtige visuele stijl
+                            die je in zijn greep houdt."</p>
+                    </div>
+                    <a
+                        href="https://www.nintendo.nl/Games/Nintendo-Switch-download-software/Melatonin-2320955.html">Koop</a>
+                </article>
+
+            </div>
+        </section>
+        <section class="form" id="form">
+            <h1>Contact</h1>
+            <form action="contact-bedankt.html#form">
+                <div class="formfield">
+                    <div class="formfieldrow">
+                        <label for="firstname">Voornaam*</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Voornaam" required>
+                    </div>
+                    <div class="formfieldrow">
+                        <label for="lastname">Achternaam*</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="achternaam" required>
+                    </div>
+                </div>
+                <div class="formfieldrow">
+                    <label for="email">E-mail*</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                </div>
+                <div class="formfield">
+                    <div class="formfieldrow">
+                        <label for="city">Woonplaats*</label>
+                        <input type="text" name="city" id="city" placeholder="Woonplaats" required>
+                    </div>
+                    <div class="formfieldrow">
+                        <label for="birthdate">Geboortedatum*</label>
+                        <input type="date" name="birthdate" id="birthdate" required>
+                    </div>
+                </div>
+                <div class="formfieldrow">
+                    <label for="subject">Onderwerp*</label>
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled>Kies een onderwerp</option>
+                        <option value="1">Spiritfarer</option>
+                        <option value="2">Ooblets</option>
+                        <option value="0">Moonin</option>
+                        <option value="3">Melatonin</option>
+                    </select>
+                </div>
+                <div class="formfieldrow">
+                    <label for="message">Bericht*</label>
+                    <textarea name="message" rows="7" required></textarea>
+                </div>
+                <label for="newsletter">Inschrijven voor nieuwsbrief?*</label>
+                <div class="newsletter">
+                    <input type="radio" id="ja" name="newsletter" value="1" required>
+                    <label for="ja">Ja</label>
+                    <input type="radio" id="nee" name="newsletter" value="2" required>
+                    <label for="nee">Nee</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="agreed" name="agreed" value="agreed" required>
+                    <label for="agreed">Ik ga akkoord met de algemene voorwaarden</label>
+                </div>
+                <button type="submit">Verstuur bericht</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Elisa Zornig</p>
+        <p>Privacyverklaring</p>
+        <p>Cookiebeleid</p>
+        <p>Contact</p>
+    </footer>
+</body>
+
+</html>
