@@ -212,6 +212,30 @@ button:hover {
     margin-top: 2rem;
 }
 
+input:focus:invalid {
+    border: 3px solid red;
+}
+
+input:valid {
+    border: 3px solid green;
+}
+
+textarea:focus:invalid {
+    border: 3px solid red;
+}
+
+textarea:valid {
+    border: 3px solid green;
+}
+
+select:focus:invalid {
+    border: 3px solid red;
+}
+
+select:valid {
+    border: 3px solid green;
+}
+
 /* hiereindigt de form*/
 
 footer {
